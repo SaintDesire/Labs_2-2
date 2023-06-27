@@ -1,0 +1,43 @@
+USE UNIVER;
+
+DROP TRIGGER потенциально_отчисленные;
+
+CREATE TRIGGER потенциально_отчисленные
+ON PROGRESS
+AFTER INSERT
+AS
+BEGIN
+  IF EXISTS (
+    SELECT s.IDSTUDENT, s.NAME
+    FROM STUDENT s
+    INNER JOIN inserted i ON s.IDSTUDENT = i.IDSTUDENT
+    INNER JOIN PROGRESS p ON s.IDSTUDENT = p.IDSTUDENT
+    WHERE p.NOTE < 4
+    GROUP BY s.IDSTUDENT, s.NAME
+    HAVING COUNT(p.NOTE) > 2
+  )
+  BEGIN
+    DECLARE @StudentID INT;
+    DECLARE @StudentName VARCHAR(50);
+
+    SELECT @StudentID = s.IDSTUDENT, @StudentName = s.NAME
+    FROM STUDENT s
+    INNER JOIN inserted i ON s.IDSTUDENT = i.IDSTUDENT
+    INNER JOIN PROGRESS p ON s.IDSTUDENT = p.IDSTUDENT
+    WHERE p.NOTE < 4
+    GROUP BY s.IDSTUDENT, s.NAME
+    HAVING COUNT(p.NOTE) > 2;
+
+    DECLARE @ErrorMessage VARCHAR(100);
+    SET @ErrorMessage = 'У студента ' + CAST(@StudentID AS VARCHAR) + ' (' + @StudentName + ') есть более 2 оценок ниже 4';
+
+    RAISERROR (@ErrorMessage, 16, 1);
+    ROLLBACK TRANSACTION;
+    RETURN;
+  END;
+END;
+
+
+
+INSERT INTO PROGRESS (SUBJECT, IDSTUDENT, PDATE, NOTE)
+VALUES ('БД', 305, '2023-05-23', 3)

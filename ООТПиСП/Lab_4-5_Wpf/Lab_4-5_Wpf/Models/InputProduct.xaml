@@ -1,0 +1,71 @@
+﻿<Window x:Class="Lab_4_5_Wpf.Models.InputProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:local="clr-namespace:Lab_4_5_Wpf.Models"
+        xmlns:commands="clr-namespace:Lab_4_5_Wpf.Commands"
+        mc:Ignorable="d"
+        Title="InputProduct"
+        Height="400"
+        Width="600">
+    <Window.CommandBindings>
+        <CommandBinding Command="commands:AplicationCommand.ChangeProductInDataGridCommand" Executed="ChangeProductInDataGrid"/>
+        <CommandBinding Command="commands:AplicationCommand.AddProductToDataGrid" Executed="AddProduct_Executed"/>
+    </Window.CommandBindings>
+    <Grid Margin="25">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical">
+
+            <TextBox x:Name="Title_TextBox"
+            Width="100"
+            Height="40">Title</TextBox>
+
+            <TextBox x:Name="Description_TextBox"
+            Width="100"
+            Height="40">Descritpion</TextBox>
+
+            <Button x:Name="AddOrChangeButton"
+                Height="40"
+                Width="80" 
+            Content="___"/>
+
+            <Button
+                Height="40"
+                Width="auto"
+                Content="Image"
+                Click="Button_Click"/>
+
+            <ComboBox x:Name="Type_ComboBox" SelectionChanged="Type_ComboBox_SelectionChanged">
+                <TextBlock>Ball</TextBlock>
+                <TextBlock>Boots</TextBlock>
+            </ComboBox>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Vertical" Grid.Column="1">
+
+            <DockPanel VerticalAlignment="Center" Margin="10" 
+                   Grid.Column="1">
+                <TextBox Text="{Binding ElementName=Price_Slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+                <Slider 
+                x:Name="Price_Slider"
+                Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True"/>
+            </DockPanel>
+
+            <Image x:Name="ProductImage" 
+               Grid.Column="2"
+               Grid.Row="2"
+               Width="256"
+               Height="256"></Image>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="Lab8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Lab8"
+        Title="AviaBooking" Height="350" Width="700">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!-- Кнопки для управления рейсами -->
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Button Content="Добавить рейс" Click="AddFlight_Click"/>
+                <Button Content="Редактировать рейс" Click="EditFlight_Click"/>
+                <Button Content="Удалить рейс" Click="DeleteFlight_Click"/>
+            </StackPanel>
+
+            <!-- Таблица для вывода списка рейсов -->
+            <DataGrid x:Name="flightsGrid" Grid.Column="0" Grid.Row="1" Margin="10"
+              AutoGenerateColumns="True" ItemsSource="{Binding Flights}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер рейса" Binding="{Binding FlightNumber}"/>
+                    <DataGridTextColumn Header="Аэропорт отправления" Binding="{Binding DepartureAirport}"/>
+                    <DataGridTextColumn Header="Аэропорт прибытия" Binding="{Binding ArrivalAirport}"/>
+                    <DataGridTextColumn Header="Время отправления" Binding="{Binding DepartureTime}"/>
+                    <DataGridTextColumn Header="Время прибытия" Binding="{Binding ArrivalTime}"/>
+                    <DataGridTextColumn Header="Количество мест" Binding="{Binding AvailableSeats}"/>
+                    <DataGridTextColumn Header="Цена билета" Binding="{Binding Price}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Кнопки для управления клиентами -->
+            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" Margin="10">
+                <Button Content="Добавить клиента" Click="AddCustomer_Click"/>
+                <Button Content="Редактировать клиента" Click="EditCustomer_Click"/>
+                <Button Content="Удалить клиента" Click="DeleteCustomer_Click"/>
+            </StackPanel>
+
+            <!-- Таблица для вывода списка клиентов -->
+            <DataGrid x:Name="customersGrid" Grid.Column="1" Grid.Row="1" Margin="10"
+              AutoGenerateColumns="False" ItemsSource="{Binding Customers}">
+                <DataGrid.Columns> 
+                    <DataGridTextColumn Header="ID клиента" Binding="{Binding CustomerId}"/>
+                    <DataGridTextColumn Header="Имя клиента" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Email клиента" Binding="{Binding Email}"/>
+                    <DataGridTextColumn Header="Номер телефона клиента" Binding="{Binding PhoneNumber}"/>
+                    <DataGridTextColumn Header="Номер рейса" Binding="{Binding FlightNumber}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,46 @@
+use Kor_MyBase;
+
+-- 1 -- 
+BEGIN TRY
+  BEGIN TRANSACTION;
+    INSERT INTO Клиенты (ID_Клиента, Название_фирмы_клиента, Адрес, Телефон)
+    VALUES (12, 'Новая фирма', 'Адрес клиента', '999-999-999');
+  COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+  IF @@TRANCOUNT > 0
+    ROLLBACK TRANSACTION;
+  THROW;
+END CATCH;
+
+-- 2 --
+
+BEGIN TRY
+  BEGIN TRANSACTION;
+    UPDATE Кредиты
+    SET Сумма = 15000
+    WHERE ID_Кредита = 1;
+  COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+  IF @@TRANCOUNT > 0
+    ROLLBACK TRANSACTION;
+  THROW;
+END CATCH;
+
+
+-- 3 -- 
+
+BEGIN TRY
+  BEGIN TRANSACTION;
+    DELETE FROM Собственность
+    WHERE ID_Собственности = 2;
+  COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+  IF @@TRANCOUNT > 0
+    ROLLBACK TRANSACTION;
+  THROW;
+END CATCH;
+
+

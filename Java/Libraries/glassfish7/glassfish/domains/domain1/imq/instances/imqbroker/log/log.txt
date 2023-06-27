@@ -1,0 +1,512 @@
+[#|2023-05-25T13:24:25.200+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|
+================================================================================
+Message Queue 6.4.0
+Eclipse Foundation
+Version:  6.4.0  (Build 1-a)
+Compile:  February 25 2023
+
+Copyright (c) 2013, 2018 Oracle and/or its affiliates.  All rights reserved.
+Copyright (c) 2018, 2022 Contributors to Eclipse Foundation.
+================================================================================
+Java Runtime: 19.0.2 Oracle Corporation C:\Program Files\Java\jdk-19
+|#]
+
+
+[#|2023-05-25T13:24:25.249+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|   IMQ_HOME=C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\mq
+|#]
+
+
+[#|2023-05-25T13:24:25.251+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|IMQ_VARHOME=C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\glassfish\domains\domain1\imq
+|#]
+
+
+[#|2023-05-25T13:24:25.282+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Windows 10 10.0 amd64 192.168.0.12 (12 cpu) Admin
+|#]
+
+
+[#|2023-05-25T13:24:25.284+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Java Heap Size: max=196608k, current=16384k
+|#]
+
+
+[#|2023-05-25T13:24:25.287+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Arguments: 
+|#]
+
+
+[#|2023-05-25T13:24:25.309+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1522]: Create thread pool portmapper for (12, 12)(60s) service
+|#]
+
+
+[#|2023-05-25T13:24:25.337+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the portmapper service using tcp [ 7676, 50, * ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2023-05-25T13:24:25.365+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2023-05-25T13:24:25.366+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2023-05-25T13:24:25.378+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2023-05-25T13:24:25.380+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Using built-in file-based persistent store: C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\glassfish\domains\domain1\imq\instances\imqbroker\
+|#]
+
+
+[#|2023-05-25T13:24:25.441+0300|WARNING|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|WARNING Existing file: incompleteTxnStore has older cookie version than current version. Current version = 1. Original file version = 0
+|#]
+
+
+[#|2023-05-25T13:24:25.463+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2023-05-25T13:24:25.480+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1041]: Cluster initialization successful.
+|#]
+
+
+[#|2023-05-25T13:24:25.521+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2023-05-25T13:24:25.550+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|new transaction log enabled
+|#]
+
+
+[#|2023-05-25T13:24:25.551+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|sync writes to disk = false
+|#]
+
+
+[#|2023-05-25T13:24:25.552+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2023-05-25T13:24:25.552+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2023-05-25T13:24:25.553+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+|#]
+
+
+[#|2023-05-25T13:24:25.584+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2023-05-25T13:24:25.586+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2023-05-25T13:24:25.587+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2023-05-25T13:24:25.588+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1503]: Retrieved 0 destinations from store
+|#]
+
+
+[#|2023-05-25T13:24:25.589+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1144]: Creating Dead Message Queue
+|#]
+
+
+[#|2023-05-25T13:24:25.599+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1158]: Administrator has created destination mq.sys.dmq [Queue]
+|#]
+
+
+[#|2023-05-25T13:24:25.886+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2023-05-25T13:24:26.050+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://DESKTOP-T94EMTB/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc1AApVbmljYXN0UmVmAAwxOTIuMTY4LjAuMTIAAMCt2Dmax8jd0xdFSdtaAAABiFJwNzaAAQB4
+|#]
+
+
+[#|2023-05-25T13:24:26.120+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2023-05-25T13:24:26.121+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2023-05-25T13:24:26.126+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2023-05-25T13:24:26.126+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2023-05-25T13:24:26.141+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:49328 ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2023-05-25T13:24:26.142+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1228]: Cluster ping interval is 60 seconds
+|#]
+
+
+[#|2023-05-25T13:24:26.144+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1039]: Broker "imqbroker@192.168.0.12:7676" ready.
+|#]
+
+
+[#|2023-05-25T16:03:06.195+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|
+================================================================================
+Message Queue 6.4.0
+Eclipse Foundation
+Version:  6.4.0  (Build 1-a)
+Compile:  February 25 2023
+
+Copyright (c) 2013, 2018 Oracle and/or its affiliates.  All rights reserved.
+Copyright (c) 2018, 2022 Contributors to Eclipse Foundation.
+================================================================================
+Java Runtime: 19.0.2 Oracle Corporation C:\Program Files\Java\jdk-19
+|#]
+
+
+[#|2023-05-25T16:03:06.227+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|   IMQ_HOME=C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\mq
+|#]
+
+
+[#|2023-05-25T16:03:06.227+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|IMQ_VARHOME=C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\glassfish\domains\domain1\imq
+|#]
+
+
+[#|2023-05-25T16:03:06.243+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Windows 10 10.0 amd64 DESKTOP-T94EMTB (12 cpu) Admin
+|#]
+
+
+[#|2023-05-25T16:03:06.243+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Java Heap Size: max=196608k, current=16384k
+|#]
+
+
+[#|2023-05-25T16:03:06.243+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Arguments: 
+|#]
+
+
+[#|2023-05-25T16:03:06.258+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1522]: Create thread pool portmapper for (12, 12)(60s) service
+|#]
+
+
+[#|2023-05-25T16:03:06.296+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the portmapper service using tcp [ 7676, 50, * ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2023-05-25T16:03:27.371+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2023-05-25T16:03:27.371+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2023-05-25T16:03:27.371+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2023-05-25T16:03:27.387+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Using built-in file-based persistent store: C:\Users\Admin\Desktop\labs\labs 2_2\Java\Libraries\glassfish7\glassfish\domains\domain1\imq\instances\imqbroker\
+|#]
+
+
+[#|2023-05-25T16:03:27.525+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2023-05-25T16:03:27.541+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1041]: Cluster initialization successful.
+|#]
+
+
+[#|2023-05-25T16:03:27.572+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|new transaction log enabled
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|sync writes to disk = false
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1270]: Processing messages from transaction log file...
+|#]
+
+
+[#|2023-05-25T16:03:27.610+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2023-05-25T16:03:27.626+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1503]: Retrieved 1 destinations from store
+|#]
+
+
+[#|2023-05-25T16:03:27.626+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1151]: Loading destination mq.sys.dmq [Queue] with 0 messages
+|#]
+
+
+[#|2023-05-25T16:03:27.626+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1152]: Loading of destination mq.sys.dmq [Queue] complete
+|#]
+
+
+[#|2023-05-25T16:03:27.626+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2023-05-25T16:03:27.626+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2023-05-25T16:03:27.889+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2023-05-25T16:03:28.047+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://DESKTOP-T94EMTB/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc4AApVbmljYXN0UmVmAA8xOTIuMTY4LjEwMC4xODIAAMKe9dXeg/7du0djS+epAAABiFMB0LaAAQB4
+|#]
+
+
+[#|2023-05-25T16:03:28.127+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2023-05-25T16:03:28.127+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2023-05-25T16:03:28.127+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2023-05-25T16:03:28.127+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2023-05-25T16:03:28.142+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:49825 ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2023-05-25T16:03:28.142+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1228]: Cluster ping interval is 60 seconds
+|#]
+
+
+[#|2023-05-25T16:03:28.142+0300|FORCE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1039]: Broker "imqbroker@DESKTOP-T94EMTB:7676" ready.
+|#]
+
+
+[#|2023-05-25T16:03:33.605+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1065]: Accepting: admin@127.0.0.1:49827->admin:49824. Count: service=1 broker=1
+|#]
+
+
+[#|2023-05-25T16:04:37.775+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1158]: Administrator has created destination BankOrderDestination [Queue]
+|#]
+
+
+[#|2023-05-25T16:05:17.858+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1125]: Pausing Destination BankOrderDestination
+|#]
+
+
+[#|2023-05-25T16:05:22.188+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1517]: Destroying destination BankOrderDestination [Queue] 
+|#]
+
+
+[#|2023-05-25T16:05:22.189+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1387]: Purged 0 messages from destination BankOrderDestination [Queue]
+|#]
+
+
+[#|2023-05-25T16:05:22.190+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1159]: Destination BankOrderDestination [Queue] has been destroyed
+|#]
+
+
+[#|2023-05-25T16:05:33.982+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1158]: Administrator has created destination P2PSync [Queue]
+|#]
+
+
+[#|2023-05-25T16:05:51.060+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1065]: Accepting: admin@127.0.0.1:49890->jms:49823. Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:06:57.197+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1065]: Accepting: admin@127.0.0.1:49898->jms:49823. Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:06:57.282+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1066]:   Closing: admin@127.0.0.1:49898->jms:49823 because "[B0059]: Client closed the connection". Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:07:32.106+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1158]: Administrator has created destination P2PAsync [Queue]
+|#]
+
+
+[#|2023-05-25T16:07:40.352+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1065]: Accepting: admin@127.0.0.1:49904->jms:49823. Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:07:40.425+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1066]:   Closing: admin@127.0.0.1:49904->jms:49823 because "[B0059]: Client closed the connection". Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:07:45.786+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1066]:   Closing: admin@127.0.0.1:49890->jms:49823 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2023-05-25T16:07:55.375+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1065]: Accepting: admin@127.0.0.1:49913->jms:49823. Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:08:12.043+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1065]: Accepting: admin@127.0.0.1:49920->jms:49823. Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:08:12.117+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1066]:   Closing: admin@127.0.0.1:49920->jms:49823 because "[B0059]: Client closed the connection". Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:08:53.456+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1158]: Administrator has created destination PubSubTopic [Topic]
+|#]
+
+
+[#|2023-05-25T16:09:00.736+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1066]:   Closing: admin@127.0.0.1:49913->jms:49823 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2023-05-25T16:09:06.800+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1065]: Accepting: admin@127.0.0.1:49932->jms:49823. Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:09:06.840+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1478]: Create unshared durable subscription [0:DurableConsumer] on destination T:PubSubTopic
+|#]
+
+
+[#|2023-05-25T16:09:10.381+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1065]: Accepting: admin@127.0.0.1:49938->jms:49823. Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:09:14.269+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=59;_ThreadName=Thread-jms[4];|[B1065]: Accepting: admin@127.0.0.1:49943->jms:49823. Count: service=3 broker=4
+|#]
+
+
+[#|2023-05-25T16:09:14.329+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=59;_ThreadName=Thread-jms[4];|[B1066]:   Closing: admin@127.0.0.1:49943->jms:49823 because "[B0059]: Client closed the connection". Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:09:36.614+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1066]:   Closing: admin@127.0.0.1:49932->jms:49823 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:09:37.270+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1066]:   Closing: admin@127.0.0.1:49938->jms:49823 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2023-05-25T16:09:44.379+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1065]: Accepting: admin@127.0.0.1:49948->jms:49823. Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:09:50.853+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1065]: Accepting: admin@127.0.0.1:49963->jms:49823. Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:09:55.490+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=59;_ThreadName=Thread-jms[4];|[B1065]: Accepting: admin@127.0.0.1:49970->jms:49823. Count: service=3 broker=4
+|#]
+
+
+[#|2023-05-25T16:10:15.977+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=51;_ThreadName=Thread-jms[2];|[B1066]:   Closing: admin@127.0.0.1:49948->jms:49823 because "java.net.SocketException: Connection reset". Count: service=2 broker=3
+|#]
+
+
+[#|2023-05-25T16:10:16.721+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=48;_ThreadName=Thread-jms[0];|[B1066]:   Closing: admin@127.0.0.1:49963->jms:49823 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2023-05-25T16:10:17.895+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=59;_ThreadName=Thread-jms[4];|[B1066]:   Closing: admin@127.0.0.1:49970->jms:49823 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2023-05-25T16:58:12.057+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=33;_ThreadName=MQTimer-Thread;|[B2173]: Destroying unresponsive connection 2322881397911876096, connection has not responded for 2528 seconds
+|#]
+
+
+[#|2023-05-25T16:58:12.059+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=33;_ThreadName=MQTimer-Thread;|[B1159]: Destination temporary_destination://queue/192.168.100.182/49827/1 [Queue] has been destroyed
+|#]
+
+
+[#|2023-05-25T16:58:12.059+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=33;_ThreadName=MQTimer-Thread;|[B1066]:   Closing: admin@127.0.0.1:49827->admin:49824 because "Connection unresponsive". Count: service=0 broker=0
+|#]
+
+
+[#|2023-05-25T16:58:12.060+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=33;_ThreadName=MQTimer-Thread;|Internal Warning: message PING(54):0-0.0.0.0-0-0queued on destroyed connection IMQConn[2322881397911876096, DESTROYED, admin@127.0.0.1:49827, null]
+|#]
+
+
+[#|2023-05-25T17:00:12.058+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=33;_ThreadName=MQTimer-Thread;|[B1159]: Destination __JMQAdmin [Queue] has been destroyed
+|#]
+
+
+[#|2023-05-25T18:36:00.519+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1065]: Accepting: admin@127.0.0.1:58342->admin:49824. Count: service=1 broker=1
+|#]
+
+
+[#|2023-05-25T18:47:14.842+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1159]: Destination temporary_destination://queue/192.168.100.182/58342/1 [Queue] has been destroyed
+|#]
+
+
+[#|2023-05-25T18:47:14.858+0300|INFO|6.4.0|imq.log.Logger|_ThreadID=45;_ThreadName=Thread-admin[0];|[B1066]:   Closing: admin@127.0.0.1:58342->admin:49824 because "java.net.SocketException: Connection reset". Count: service=0 broker=0
+|#]
+
+
+[#|2023-05-25T20:09:36.193+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:09:54.560+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:10:03.560+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:10:15.434+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:11:27.537+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:12:03.287+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:19:27.835+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:23:10.767+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:23:12.820+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:23:15.864+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+
+[#|2023-05-25T20:23:20.090+0300|SEVERE|6.4.0|imq.log.Logger|_ThreadID=1;_ThreadName=main;|ERROR [B3276]: Starting a GlassFish-managed broker directly using imqbrokerd is not allowed
+|#]
+
+

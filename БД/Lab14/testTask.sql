@@ -1,0 +1,19 @@
+USE UNIVER
+
+--DROP FUNCTION отчисленные;
+
+CREATE FUNCTION отчисленные()
+RETURNS TABLE
+AS
+RETURN
+(
+  SELECT s.IDSTUDENT, s.NAME, COUNT(p.NOTE) AS [Количество оценок меньше 4]
+  FROM STUDENT s
+  INNER JOIN PROGRESS p ON s.IDSTUDENT = p.IDSTUDENT
+  WHERE p.NOTE < 4
+  GROUP BY s.IDSTUDENT, s.NAME
+  HAVING COUNT(p.NOTE) >= 2
+);
+
+
+SELECT * FROM отчисленные();

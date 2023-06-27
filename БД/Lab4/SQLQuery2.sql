@@ -1,0 +1,23 @@
+use UNIVER;
+SELECT
+    f.FACULTY_NAME AS 'Факультет',
+    pu.PULPIT_NAME AS 'Кафедра',
+    pr.PROFESSION_NAME AS 'Специальность',
+    s1.NAME AS 'Имя студента',
+    CASE p.NOTE
+        WHEN 6 THEN 'шесть'
+        WHEN 7 THEN 'семь'
+        WHEN 8 THEN 'восемь'
+    END AS 'Оценка'
+FROM
+    STUDENT s1
+    INNER JOIN [GROUP] g ON s1.IDGROUP = g.IDGROUP
+    INNER JOIN PROFESSION pr ON g.PROFESSION = pr.PROFESSION
+    INNER JOIN FACULTY f ON g.FACULTY = f.FACULTY
+    INNER JOIN PROGRESS p ON s1.IDSTUDENT = p.IDSTUDENT
+    INNER JOIN SUBJECT s ON p.SUBJECT = s.SUBJECT
+    INNER JOIN PULPIT pu ON s.PULPIT = pu.PULPIT
+WHERE
+    p.NOTE BETWEEN 6 AND 8
+ORDER BY
+    p.NOTE DESC;

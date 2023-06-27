@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="160d4d11-efeb-4b43-bcc3-f56f43468b25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab8_2/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/ErrorWindow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/FirstIntermediateSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/FirstSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/FooterMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/FourthSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/HeaderMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/SecondSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5-7/src/scss/ThirdSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab8_2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab8_2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab8_2/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8_2/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lab8_2/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/ErrorWindow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/ErrorWindow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/FirstSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/FirstSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/FooterMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/FooterMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/FourthSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/FourthSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/HeaderMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/HeaderMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/SecondSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/SecondSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/components/ThirdSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5-7/src/components/ThirdSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/ErrorWindow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/FirstIntermediateSection.module.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/FirstSection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/FooterMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/FourthSection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/HeaderMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/SecondSection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5-7/src/styles/ThirdSection.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lab_5-7" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2LSs49cyBEnFa1iEDBfWvKbe9NF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/labs/labs 2_2/ТРПИ/lab12",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="160d4d11-efeb-4b43-bcc3-f56f43468b25" name="Changes" comment="" />
+      <created>1675875626561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675875626561</updated>
+      <workItem from="1675875627926" duration="625000" />
+      <workItem from="1675876813098" duration="33000" />
+      <workItem from="1675877328438" duration="1089000" />
+      <workItem from="1675962790632" duration="11610000" />
+      <workItem from="1676297480900" duration="4549000" />
+      <workItem from="1676562410213" duration="2461000" />
+      <workItem from="1676568287080" duration="2362000" />
+      <workItem from="1676643017534" duration="610000" />
+      <workItem from="1678787651031" duration="10000" />
+      <workItem from="1678787758879" duration="49000" />
+      <workItem from="1679587162700" duration="748000" />
+      <workItem from="1679660167833" duration="198000" />
+      <workItem from="1679660438780" duration="17000" />
+      <workItem from="1681750329437" duration="258000" />
+      <workItem from="1684495057190" duration="410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lab1/Task2/Task2.js" />
+        <option value="$PROJECT_DIR$/Lab1/Task3/Task3.js" />
+        <option value="$PROJECT_DIR$/Lab1/Task4/Task4.js" />
+        <option value="$PROJECT_DIR$/Lab1/Task5/Task5.js" />
+        <option value="$PROJECT_DIR$/Lab2/Task2/Task2.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\AddPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\CustomButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Slider.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dictionaries\Dictionary1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dictionaries\Dictionary2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\EditPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\AddPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\CustomButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Slider.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

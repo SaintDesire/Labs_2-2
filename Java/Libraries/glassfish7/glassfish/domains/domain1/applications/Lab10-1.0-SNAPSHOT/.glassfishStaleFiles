@@ -1,0 +1,5 @@
+WEB-INF/
+WEB-INF/lib/
+WEB-INF/lib/protobuf-java-3.21.9.jar
+WEB-INF/lib/mysql-connector-j-8.0.33.jar
+WEB-INF/lib/log4j-1.2.17.jar

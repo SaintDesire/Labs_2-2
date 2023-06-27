@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Lab_4_5_Wpf</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Poppins-Regular.ttf" />
+    <None Remove="Images\adidas_predator.jpg" />
+    <None Remove="Images\adidas_predator20.jpg" />
+    <None Remove="Images\adidas_predator20_white.jpg" />
+    <None Remove="Images\adidas_predator_19pink.jpg" />
+    <None Remove="Images\adidas_predator_freak.jpg" />
+    <None Remove="Images\AL_RIHLA.jpg" />
+    <None Remove="Images\emerald.cur" />
+    <None Remove="Images\icon_main.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\emerald.cur" />
+    <Resource Include="Images\icon_main.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Poppins-Regular.ttf" />
+    <Resource Include="Images\adidas_predator.jpg" />
+    <Resource Include="Images\adidas_predator20.jpg" />
+    <Resource Include="Images\adidas_predator20_white.jpg" />
+    <Resource Include="Images\adidas_predator_19pink.jpg" />
+    <Resource Include="Images\adidas_predator_freak.jpg" />
+    <Resource Include="Images\AL_RIHLA.jpg" />
+  </ItemGroup>
+
+</Project>

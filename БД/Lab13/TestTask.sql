@@ -1,0 +1,34 @@
+use UNIVER;
+
+DROP PROCEDURE IncreaseStudentScores;
+
+CREATE PROCEDURE IncreaseStudentScores 
+@groupId INT = 0
+as
+BEGIN
+    UPDATE PROGRESS
+    SET NOTE = CASE
+		WHEN NOTE < 10 THEN NOTE + 1
+		ELSE 10
+		END
+    WHERE IDSTUDENT IN (
+        SELECT IDSTUDENT
+        FROM STUDENT
+        WHERE IDGROUP = @groupId
+    );
+END;
+
+DECLARE @id INT = 24;
+SELECT * FROM PROGRESS WHERE IDSTUDENT IN (
+        SELECT IDSTUDENT
+        FROM STUDENT
+        WHERE IDGROUP = @id
+    );
+EXEC IncreaseStudentScores @id;
+
+SELECT * FROM PROGRESS WHERE IDSTUDENT IN (
+        SELECT IDSTUDENT
+        FROM STUDENT
+        WHERE IDGROUP = @id
+    );
+

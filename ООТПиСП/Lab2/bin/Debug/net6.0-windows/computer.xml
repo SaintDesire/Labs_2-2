@@ -1,0 +1,10 @@
+<Computer>
+  <ComputerType>Server</ComputerType>
+  <Processor>Core i5 10400F</Processor>
+  <VideoCard>RTX 3060TI</VideoCard>
+  <RAMType>DDR4</RAMType>
+  <RAMSize>6</RAMSize>
+  <HardDriveType>HDD</HardDriveType>
+  <HardDriveSize>424</HardDriveSize>
+  <DateOfPurchase>01.01.0001 00:00:00</DateOfPurchase>
+</Computer>

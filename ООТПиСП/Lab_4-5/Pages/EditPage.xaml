@@ -1,0 +1,47 @@
+﻿<Window x:Class="Lab_4_5.EditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lab_4_5"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddPage">
+
+    <Grid Margin="25">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Введите название:" />
+            <TextBox Grid.Row="0" Grid.Column="1" Margin="0,0,0,20" x:Name="titleField" Width="200" TextWrapping="Wrap" TextChanged="titleField_TextChanged" />
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Введите описание:" />
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="0,0,0,20"  x:Name="descriptionField" Width="200" TextWrapping="Wrap" TextChanged="descriptionField_TextChanged" />
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Введите цену:" />
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="0,0,0,20"  x:Name="priceField" Width="200" TextWrapping="Wrap" TextChanged="priceField_TextChanged" />
+
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Выберите изображение:" />
+            <Button Grid.Row="3" Grid.Column="1" Margin="15,0,15,20"  Content="Выбрать" Click="ChooseImageButton_Click"/>
+
+            <Button Grid.Row="4" Grid.Column="1"  Content="Изменить" Click="ValidateData"/>
+        </Grid>
+
+        <Image x:Name="productImage" Grid.Column="1" Margin="15" Visibility="Collapsed"/>
+    </Grid>
+</Window>
